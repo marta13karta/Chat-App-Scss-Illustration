@@ -146,30 +146,34 @@ body {
               font-size: 8px;
               padding: 0 8px;
               padding-top: 80px;
-              border-radius: 1.5rem;
+              border-top-right-radius: 1.5rem;
+              border-top-left-radius: 1.5rem;
               .message-incoming {
                 align-self: flex-start;
-                max-width: 55%;
-                margin-bottom: 10px;
+                max-width: 56%;
+                margin-bottom: 7px;
                 color: $moderate-violet;
                 background: #dedde0;
                 border-radius: 8px;
                 border-bottom-left-radius: 2px;
-                padding: 4px;
+                padding: 7px;
               }
               .message-outgoing:has(img) {
                 display: flex;
                 justify-content: center;
                 background: none;
+                box-shadow: none;
               }
               .message-outgoing {
                 align-self: flex-end;
-                max-width: 55%;
+                max-width: 56%;
                 margin-bottom: 10px;
                 background: $white;
                 color: $desaturated-dark-violet;
                 border-radius: 6px;
-                padding: 4px;
+                padding: 7px;
+                border-bottom-right-radius: 2px;
+                box-shadow: 6px 0px 20px -1px rgba(0, 0, 0, 0.14);
                 img {
                   width: 36%;
                   margin-right: 6px;
@@ -190,7 +194,7 @@ body {
                   $light-violet,
                   $light-magenta
                 );
-                margin-bottom: 10px;
+                margin-bottom: 7px;
                 .option-radio {
                   appearance: none;
                   -webkit-appearance: none;
@@ -229,7 +233,7 @@ body {
                 width: 100%;
                 border-radius: 20px;
                 color: hsl(206, 6%, 79%);
-                height: 32px;
+                height: 34px;
                 outline: none;
                 padding: 6px 18px;
                 border: none;
